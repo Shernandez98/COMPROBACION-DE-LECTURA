@@ -1,0 +1,10 @@
+TAD Árbol B
+•	Operaciones:
+1.	CrearÁrbolB: Crea un nuevo árbol B vacío.
+2.	InsertarClave: Inserta una nueva clave en el árbol B.
+3.	EliminarClave: Elimina una clave existente del árbol B.
+4.	BuscarClave: Busca una clave específica en el árbol B.
+5.	RecorrerÁrbol: Realiza un recorrido (inorden, preorden, postorden) del árbol B.
+•	Estructura:
+o	Cada nodo del árbol B puede contener varias claves y apuntadores a otros nodos.
+o	Se define un parámetro tt, conocido como el orden del árbol B, que determina el número mínimo de claves en cada nodo, así como restricciones en la cantidad de claves y nodos hijos.
