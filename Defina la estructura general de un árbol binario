@@ -1,0 +1,19 @@
+ESTRUCTURA DE UN ARBOL BINARIO
+Existe un nodo raíz (root), que es el punto de inicio del árbol.
+Cada nodo puede tener 0, 1 o 2 hijos.
+Los nodos hijos se dividen en:
+•	Hijo izquierdo 
+•	Hijo derecho 
+Cada subárbol también es un árbol binario.
+class Nodo {
+    int dato;
+    Nodo izquierdo;
+    Nodo derecho;
+
+    public Nodo(int dato) {
+        this.dato = dato;
+        this.izquierdo = null;
+        this.derecho = null;
+    }
+}
+ 
